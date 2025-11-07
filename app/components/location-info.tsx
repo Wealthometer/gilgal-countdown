@@ -38,7 +38,7 @@ export default function LocationInfo() {
                 <p className="text-slate-700">
                   14, Ademosun Street,
                   <br />
-                  Off Alafin Street,
+                  Off Alafia Street,
                   <br />
                   Behind Zone D Police Station,
                   <br />
