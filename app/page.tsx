@@ -158,7 +158,7 @@ export default function Home() {
               <a href="https://www.youtube.com/@boomfireandmiraclesministry" className="text-slate-400 hover:text-white transition-colors" aria-label="YouTube">
                 <i className="fab fa-youtube text-lg" aria-hidden></i>
               </a>
-              <a href="https://wa.me/+2349115575899" className="text-slate-400 hover:text-white transition-colors" aria-label="WhatsApp">
+              <a href="https://wa.me/+2348180009555" className="text-slate-400 hover:text-white transition-colors" aria-label="WhatsApp">
                 <i className="fab fa-whatsapp text-lg" aria-hidden></i>
               </a>
             </div>
