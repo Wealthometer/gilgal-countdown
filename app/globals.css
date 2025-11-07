@@ -143,3 +143,17 @@
     }
   }
 }
+
+
+@keyframes bounceWord {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-bounceWord {
+  animation: bounceWord 0.7s ease-in-out infinite;
+}

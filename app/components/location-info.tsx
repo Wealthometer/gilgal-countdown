@@ -1,3 +1,7 @@
+// import React from "react"
+// import Image from "next/image"
+import '../globals.css';
+
 export default function LocationInfo() {
   return (
     <div className="max-w-3xl mx-auto">
@@ -17,8 +21,12 @@ export default function LocationInfo() {
               <i className="fas fa-church text-red-600 text-lg"></i>
             </div>
             <div>
-              <h3 className="text-xl font-bold text-slate-900">Church Auditorium</h3>
-              <p className="text-slate-600 text-sm">Off Alafin Street, Mushin, Lagos</p>
+              <h3 className="text-xl font-bold text-slate-900">
+                Church Auditorium
+              </h3>
+              <p className="text-slate-600 text-sm">
+                Off Alafin Street, Mushin, Lagos
+              </p>
             </div>
           </div>
 
@@ -43,7 +51,9 @@ export default function LocationInfo() {
               <i className="fas fa-parking text-red-600 mt-1 flex-shrink-0"></i>
               <div>
                 <p className="font-semibold text-slate-900">Parking</p>
-                <p className="text-slate-700">Adequate parking available on-site</p>
+                <p className="text-slate-700">
+                  Adequate parking available on-site
+                </p>
               </div>
             </div>
 
@@ -51,7 +61,9 @@ export default function LocationInfo() {
               <i className="fas fa-wheelchair text-red-600 mt-1 flex-shrink-0"></i>
               <div>
                 <p className="font-semibold text-slate-900">Accessibility</p>
-                <p className="text-slate-700">Wheelchair accessible facilities</p>
+                <p className="text-slate-700">
+                  Wheelchair accessible facilities
+                </p>
               </div>
             </div>
           </div>
@@ -64,7 +76,9 @@ export default function LocationInfo() {
               <i className="fas fa-phone text-orange-600 text-lg"></i>
             </div>
             <div>
-              <h3 className="text-xl font-bold text-slate-900">Contact & Social Media</h3>
+              <h3 className="text-xl font-bold text-slate-900">
+                Contact & Social Media
+              </h3>
               <p className="text-slate-600 text-sm">Get in touch with us</p>
             </div>
           </div>
@@ -95,7 +109,13 @@ export default function LocationInfo() {
             </div>
           </div>
         </div>
+
+        <div className="flex justify-center items-center py-6">
+          <p className="text-2xl font-extrabold text-center bg-gradient-to-r from-purple-600 to-red-500 text-transparent bg-clip-text">
+            Bring Your Family and Friends Along To Experience the Miracle And Blessings!
+          </p>
+        </div>
       </div>
     </div>
-  )
+  );
 }
